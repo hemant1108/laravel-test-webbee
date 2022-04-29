@@ -177,7 +177,8 @@ class EventsController extends BaseController
     ```
      */
 
-    public function getFutureEventsWithWorkshops() {
-        throw new \Exception('implement in coding task 2');
+    public function getFutureEventsWithWorkshops(EventsService $eventsService) {
+        $resopnse = $eventsService->getFutureEvents();
+        return response()->json($resopnse);
     }
 }
