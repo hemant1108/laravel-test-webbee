@@ -34,15 +34,15 @@ class DatabaseSeeder extends Seeder
             ]);
 
             Workshop::create([
-                'start' => '2021/10/21 10:00',
-                'end' => '2021/10/21 18:00',
+                'start' => '2023/10/21 10:00',
+                'end' => '2023/10/21 18:00',
                 'name' => 'The new Eloquent - load more with less',
                 'event_id' => $lcon2->id
             ]);
 
             Workshop::create([
-                'start' => '2021/11/21 09:00',
-                'end' => '2021/11/21 17:00',
+                'start' => '2023/11/21 09:00',
+                'end' => '2023/11/21 17:00',
                 'name' => 'AutoEx - handles exceptions 100% automatic',
                 'event_id' => $lcon2->id
             ]);
@@ -52,15 +52,15 @@ class DatabaseSeeder extends Seeder
             ]);
 
             Workshop::create([
-                'start' => '2021/08/21 10:00',
-                'end' => '2021/08/21 18:00',
+                'start' => '2023/08/21 10:00',
+                'end' => '2023/08/21 18:00',
                 'name' => '#NoClass pure functional programming',
                 'event_id' => $rcon->id
             ]);
 
             Workshop::create([
-                'start' => '2021/08/21 09:00',
-                'end' => '2021/08/21 17:00',
+                'start' => '2023/08/21 09:00',
+                'end' => '2023/08/21 17:00',
                 'name' => 'Navigating the function jungle',
                 'event_id' => $rcon->id
             ]);
