@@ -181,4 +181,10 @@ class EventsController extends BaseController
         $resopnse = $eventsService->getFutureEvents();
         return response()->json($resopnse);
     }
+
+
+    public function getWarmupevents(EventsService $eventsService) {
+        $resopnse = $eventsService->getWarmupevents();
+        return response()->json($resopnse);
+    }
 }

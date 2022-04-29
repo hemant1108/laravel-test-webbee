@@ -20,4 +20,10 @@ class EventsService
         })->get();
         return $events;
     }
+
+    public function getWarmupevents()
+    {
+        $events = Event::all();
+        return $events;
+    }
 }
